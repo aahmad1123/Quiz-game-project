@@ -75,6 +75,7 @@ function displayQuestions (){
         // add eventListener to check if right or wrong
         newButton.onclick= checkAnswer;
         choices.append(newButton);
+        
     })
 }
 
